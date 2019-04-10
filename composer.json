@@ -1,7 +1,7 @@
 {
     "name": "hectorstanden/interface-install",
     "description": "Creates a basic Laravel Vue SPA interface",
-    "type": "composer-plugin",
+    "type": "hector-plugin",
     "authors": [
         {
             "name": "Hector Standen",
