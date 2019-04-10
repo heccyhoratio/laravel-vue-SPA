@@ -10,7 +10,7 @@
     ],
     "require": {},
     "scripts": {
-        "post-autoload-dump": [
+        "create-resources": [
             "rm -fr ./../../resources/*",
             "cp -R ./resources ./../../",
             "cp ./webpack.mix.js ./../../"
