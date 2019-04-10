@@ -11,9 +11,14 @@
     "require": {},
     "scripts": {
         "post-install-cmd": [
-            "rm -fr ./../resources/*",
-            "cp -R ./resources ./../",
-            "cp ./webpack.mix.js ./../"
+            "rm -fr ./../../resources/*",
+            "cp -R ./resources ./../../",
+            "cp ./webpack.mix.js ./../../"
+        ],
+        "post-autoload-dump" [
+            "rm -fr ./../../resources/*",
+            "cp -R ./resources ./../../",
+            "cp ./webpack.mix.js ./../../"
         ]
     }
 }
