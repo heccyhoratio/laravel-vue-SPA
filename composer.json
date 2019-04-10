@@ -1,0 +1,19 @@
+{
+    "name": "hectorstanden/interface-install",
+    "description": "Creates a basic Laravel Vue SPA interface",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Hector Standen",
+            "email": "hector@dencreative.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "post-install-cmd": [
+            "rm -fr ./../resources/*",
+            "cp -R ./resources ./../",
+            "cp ./webpack.mix.js ./../"
+        ]
+    }
+}

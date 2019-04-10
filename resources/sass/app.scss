@@ -1,0 +1,40 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+.loader {
+  left: 50%;
+  margin-top: 1%;
+  margin-left: -4em;
+}
+
+.traffic-lights {
+  height: 3px;
+
+}
+
+.local {
+  background-color: green;
+}
+.staging {
+  background-color: yellow;
+}
+.production {
+  background-color: red;
+}
+
+.small-top-padding {
+  padding: 10px;
+}
