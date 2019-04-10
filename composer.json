@@ -11,9 +11,9 @@
     "require": {},
     "scripts": {
         "create-resources": [
-            "rm -fr ./../../resources/*",
-            "cp -R ./resources ./../../",
-            "cp ./webpack.mix.js ./../../"
+            "rm -fr ./../../../resources/*",
+            "cp -R ./resources ./../../../",
+            "cp ./webpack.mix.js ./../../../"
         ]
     }
 }
